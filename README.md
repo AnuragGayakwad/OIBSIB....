@@ -2,12 +2,9 @@
 Create an ATM Interface using Java Programming. ("user id= Oasis Infobyte    user pin=1234")
 
 import java.util.*;
-
-
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-
         User user = new User("Oasis Infobyte", "1234");
         ATMOperations atm = new ATMOperations(user);
 
